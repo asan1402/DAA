@@ -17,9 +17,8 @@
    }
 3. Time Complexity
    Time Complexity: O(log n)
-
-The algorithm uses binary search. On each iteration, it checks the middle element and eliminates half of the remaining search range.
-The number of iterations grows logarithmically with the number of elements. Therefore, the time complexity is O(log n).
+   The algorithm uses binary search. On each iteration, it checks the middle element and eliminates half of the remaining search range.
+   The number of iterations grows logarithmically with the number of elements. Therefore, the time complexity is O(log n).
 4. Space Complexity
    The algorithm uses only a fixed number of variables:
    Therefore, the space complexity is O(1).
